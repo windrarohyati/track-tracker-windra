@@ -383,7 +383,7 @@ Untuk tugas pada **Client (Frontend)**, kamu diminta untuk melengkapi tampilan u
 
   Contoh tampilan:
 
-  !["Register"](./assets/register-windra.png)
+  !["Register"](./assets/resgister-windra.png)
 
   Berikut adalah _acceptance criteria_ dari halaman `Register` yang harus dibuat:
 
@@ -411,8 +411,13 @@ Untuk tugas pada **Client (Frontend)**, kamu diminta untuk melengkapi tampilan u
   - Halaman memiliki setidaknya satu class tailwind untuk tag `div` atau `section`
   - Halaman memiliki setidaknya satu class tailwind untuk tag heading, yaitu `h1`, `h2`, `h3`, `h4`, `h5`, atau `h6`
   - Halaman memiliki setidaknya satu class tailwind untuk responsive design, yaitu class 'sm:','md:', 'lg:', 'xl:' atau '2xl:'
+
+Tampilan Dashboard
 !["Dashboard"](./assets/category-windra.png)
+Tampilan halaman task
 !["Task"](./assets/task-windra.png)
+Tampilan halaman category
+!["Category"](./assets/screencapture-track-tracker-windra-production-up-railway-app-client-category-2023-06-26-10_34_51.png)
 ### Perhatian
 
 Sebelum kalian menjalankan `grader-cli test`, pastikan kalian sudah mengubah database credentials pada file **`main.go`** (line 64) dan **`main_test.go`** (line 86) sesuai dengan database kalian. Kalian cukup mengubah nilai dari  `"username"`, `"password"` dan `"database_name"`saja.
