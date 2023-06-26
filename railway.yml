@@ -1,0 +1,4 @@
+name: fcp-web-application-v1
+language: go
+buildCommand: go build -o app
+startCommand: ./app
